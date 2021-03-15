@@ -1,0 +1,28 @@
+name: radyo_zulfikar
+description: Radyo Zülfikar
+
+publish_to: 'none' 
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^1.0.7
+  hexcolor: ^1.0.6
+  connectivity: ^2.0.2
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash.png
+    - assets/wifi.png
